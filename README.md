@@ -1,26 +1,24 @@
-# Software Rendering - 02 - Line
+# Software Rendering 
+
+![Image](data/Osito.gif)
 
 ## Objective
 
-- Understand and implement Bresenham's line drawing algorithm.
-- Integrate the line drawing functionality with the existing framebuffer and BMP writer classes.
-- Draw lines and output the result as a BMP file.
+- To demonstrate and apply knowledge of ray tracing by creating a textured diorama, incorporating various studied effects and materials to produce visually appealing and computationally efficient scenes.
 
 ## Running the Project
 
-1. Clone the repository and switch to the `SR-02-Line` branch:
+1. Clone the repository
     ```bash
-    git clone https://github.com/menene/cc2018-30-2-2024.git
-    cd cc2018-30-2-2024
-    git checkout SR-02-Line
+    git clone https://github.com/Jorge162017/Raytracing.git
     ```
 
 2. Build and run the project:
     ```bash
-    cargo run
+    cargo run --release
     ```
 
-3. Check the `output.bmp` file in the project directory to see the points you have drawn.
+3. Check the `exec file`.
 
 ## Resources
 
@@ -33,4 +31,4 @@
 Happy coding!
 
 ---
-**Erick Marroquín**
+**Jorge Lopez**
